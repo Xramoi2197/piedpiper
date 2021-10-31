@@ -1,0 +1,25 @@
+.jumbotron {
+  background: url("img/image.png");
+  background-size: cover;
+  height: 3em;
+}
+
+.centralize {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.header_logo {
+    height: 50%;
+    width: 184px;
+    margin: 1em;
+}
+
+.my_header {
+    background: #007765;
+    position: fixed;
+    height: 84px;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+}
