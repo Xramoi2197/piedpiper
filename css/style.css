@@ -1,3 +1,10 @@
+.container {
+    width: 100%;
+    max-width: 84px; /*максимальная ширина может иметь другое значение*/
+    padding: 0 15px;
+    margin: 0 auto;
+  }
+
 .jumbotron {
   background: url("img/image.png");
   background-size: cover;
@@ -5,21 +12,34 @@
 }
 
 .centralize {
-    width: 80%;
-    margin: 0 auto;
+  width: 80%;
+  justify-content: center;
+  align-items: center;
 }
 
-.header_logo {
-    height: 50%;
-    width: 184px;
-    margin: 1em;
+.logo {
+  width: 184px;
+  float: left;
 }
 
-.my_header {
-    background: #007765;
-    position: fixed;
-    height: 84px;
-    top: 0px;
-    right: 0px;
-    left: 0px;
+.my__header {
+  background: #007765;
+  position: fixed;
+  height: 84px;
+  top: 0px;
+  right: 0px;
+  left: 0px;
+}
+
+.header__block {
+  
+  display: flex;
+  color: white;
+  font-weight: 500;
+  font-size: 24px;
+}
+
+.header__link {
+    display: inline-block;
+    
 }
