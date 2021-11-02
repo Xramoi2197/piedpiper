@@ -1,45 +1,103 @@
-.container {
-    width: 100%;
-    max-width: 84px; /*максимальная ширина может иметь другое значение*/
-    padding: 0 15px;
-    margin: 0 auto;
-  }
-
-.jumbotron {
-  background: url("img/image.png");
-  background-size: cover;
-  height: 3em;
+body {
+  min-width: 560px;
 }
 
-.centralize {
-  width: 80%;
-  justify-content: center;
-  align-items: center;
+.container {
+  width: 100%;
+  max-width: 1024px;
+  padding: 15px 0;
+  margin: 0 auto;
+}
+
+.container:after,
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
 .logo {
-  width: 184px;
   float: left;
 }
 
-.my__header {
-  background: #007765;
-  position: fixed;
-  height: 84px;
-  top: 0px;
-  right: 0px;
-  left: 0px;
+nav {
+  float: right;
 }
 
-.header__block {
-  
-  display: flex;
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  margin-right: 0;
+}
+
+nav li {
+  display: inline-block; /*один из способов разместить элементы в строку*/
+  line-height: 49px;
   color: white;
-  font-weight: 500;
   font-size: 24px;
+  font-weight: 500;
 }
 
-.header__link {
-    display: inline-block;
-    
+nav li a {
+  color: white;
+  text-decoration: none;
+}
+
+.__header {
+  background: #007765;
+}
+
+.row-one h1 {
+  color: white;
+  margin: 0;
+  font-family: sans-serif;
+  font-size: 72px;
+  display: block;
+  text-align: center;
+  line-height: 403px;
+  font-weight: 500;
+}
+
+.row-one {
+  background-image: url("../img/image.png");
+  background-position: center;
+  height: 403px;
+}
+
+.row-two {
+  background: #eeeeee;
+  padding-top: 48px;
+}
+
+.row-two h1 {
+  display: block;
+  text-align: center;
+  font-weight: 500;
+  font-size: 64px;
+  font-family: sans-serif;
+  margin: 0 auto;
+  color: #007765;
+}
+
+.row-two .container {
+  padding: 0;
+  margin: 0 auto 60px auto;
+}
+
+.row-two p {
+  font-family: sans-serif;
+  font-size: 32px;
+  line-height: 37.5px;
+}
+
+.row-three {
+  background-image: url("../img/row2.png");
+  background-position: center;
+  height: 403px;
+}
+
+.row-four {
+  background: #eeeeee;
+  padding-top: 48px;
 }
