@@ -46,6 +46,8 @@ nav li a {
 
 .__header {
   background: #007765;
+  position: fixed;
+  width: 100%;
 }
 
 .row-one h1 {
@@ -70,7 +72,7 @@ nav li a {
   padding-top: 48px;
 }
 
-.row-two h1 {
+.green-h1 {
   display: block;
   text-align: center;
   font-weight: 500;
@@ -100,7 +102,7 @@ nav li a {
 
 .row-four {
   background: #eeeeee;
-  
+  padding-top: 48px;
 }
 
 .row-three p {
@@ -113,4 +115,29 @@ nav li a {
   font-family: sans-serif;
   margin: 0 auto;
   color: white;
+}
+
+.row-four img{
+  width: 115px;
+  height: 115px;
+}
+
+.col-1 {
+  margin: 0 48px 0 0;
+  float: left;
+}
+
+.container > .row > p {
+  margin-top: 0;
+}
+
+.row-four p {
+  font-family: sans-serif;
+  font-size: 32px;
+  line-height: 37.5px;
+}
+
+.row-four .container {
+  padding: 0;
+  margin: 0 auto 60px auto;
 }
