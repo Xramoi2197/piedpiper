@@ -1,7 +1,3 @@
-body {
-  min-width: 560px;
-}
-
 .container {
   width: 100%;
   max-width: 1024px;
@@ -57,14 +53,15 @@ nav li a {
   font-size: 72px;
   display: block;
   text-align: center;
-  line-height: 403px;
+  /* line-height: 403px; */
+  padding: 170px 0 170px 0;
   font-weight: 500;
 }
 
 .row-one {
   background-image: url("../img/image.png");
   background-position: center;
-  height: 403px;
+  min-height: 403px;
 }
 
 .row-two {
@@ -96,12 +93,12 @@ nav li a {
 .row-three {
   background-image: url("../img/row2.png");
   background-position: center;
-  height: 403px;
+  min-height: 403px;
   padding-top: 134px;
 }
 
 .row-four {
-  background: #eeeeee;
+  background: #ffffff;
   padding-top: 48px;
 }
 
@@ -117,7 +114,7 @@ nav li a {
   color: white;
 }
 
-.row-four img{
+.row-four img {
   width: 115px;
   height: 115px;
 }
@@ -140,4 +137,76 @@ nav li a {
 .row-four .container {
   padding: 0;
   margin: 0 auto 60px auto;
+}
+
+.row-five {
+  background: #eeeeee;
+  /* min-height: 845px; */
+  padding-top: 48px;
+}
+
+.row-five .row {
+  padding: 30px 0 30px 0;
+}
+
+.col-1-3 {
+  width: 33.3333333333%;
+  float: left;
+  /* padding: 30px; */
+}
+
+.team-fig {
+  /* padding: auto; */
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+
+.team-fig img {
+  max-width: 168px;
+  max-height: 168px;
+  width: 80%;
+  height: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.team-name {
+  text-align: center;
+  color: #007765;
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.team-job {
+  text-align: center;
+  font-style: italic;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+footer {
+  background: #333333;
+  min-height: 176px;
+}
+
+footer .container {
+  margin-top: auto;
+  margin-bottom: auto;
+  padding: 61px 0 0 0;
+  height: 176px;
+}
+
+footer p {
+  color: #ffffff;
+  text-align: center;
+  max-width: 540px;
+  min-height: 64px;
+  font-weight: 400;
+  font-size: 18px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+  margin-bottom: 0;
 }
